@@ -15,10 +15,16 @@ As a Developer, I want easy to use simple categorized functions, so I can easily
 
 ### Tasks next on list
 
-Setup GitHub Action (test and lint)
+Research these links and build a list of categories and functions
 
-- Setup Rspec action
-- Setup RuboCop action
+- https://handlebarsjs.com/guide/#installation
+- https://github.com/helpers/handlebars-helpers
+- https://github.com/klueless-io/handlebars-helpers
+- https://rubygems.org
+- https://www.ruby-toolbox.com/categories
+- https://github.com/magynhard/lucky_case
+- https://www.ruby-toolbox.com/projects/sanitize
+-
 
 ## Stories and tasks
 
@@ -35,6 +41,11 @@ Setup project management, requirement and SCRUM documents
 - Setup user stories and tasks
 - Setup a project backlog
 - Setup an examples/usage document
+
+Setup GitHub Action (test and lint)
+
+- Setup Rspec action
+- Setup RuboCop action
 
 Setup new Ruby GEM
 
