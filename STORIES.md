@@ -13,13 +13,6 @@ As a Developer, I want easy to use simple categorized functions, so I can easily
 - Create a list of categories
 - Populate categories with functions
 
-### Tasks next on list
-
-Setup GitHub Action (test and lint)
-
-- Setup Rspec action
-- Setup RuboCop action
-
 ## Stories and tasks
 
 ### Tasks - completed
@@ -35,6 +28,11 @@ Setup project management, requirement and SCRUM documents
 - Setup user stories and tasks
 - Setup a project backlog
 - Setup an examples/usage document
+
+Setup GitHub Action (test and lint)
+
+- Setup Rspec action
+- Setup RuboCop action
 
 Setup new Ruby GEM
 
