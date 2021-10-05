@@ -13,6 +13,19 @@ As a Developer, I want easy to use simple categorized functions, so I can easily
 - Create a list of categories
 - Populate categories with functions
 
+### Tasks next on list
+
+Research these links and build a list of categories and functions
+
+- https://handlebarsjs.com/guide/#installation
+- https://github.com/helpers/handlebars-helpers
+- https://github.com/klueless-io/handlebars-helpers
+- https://rubygems.org
+- https://www.ruby-toolbox.com/categories
+- https://github.com/magynhard/lucky_case
+- https://www.ruby-toolbox.com/projects/sanitize
+-
+
 ## Stories and tasks
 
 ### Tasks - completed
