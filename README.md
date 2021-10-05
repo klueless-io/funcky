@@ -26,16 +26,23 @@ gem install funcky
 
 ### Main Story
 
-
+As a Developer, I want easy to use simple categorized functions, so I can easily add commonplace functionality to my application
 
 See all [stories](./STORIES.md)
-
 
 ## Usage
 
 See all [usage examples](./USAGE.md)
 
+### Basic Example
 
+#### Basic example
+
+Description for a basic example to be featured in the main README.MD file
+
+```ruby
+class SomeRuby; end
+```
 
 ## Development
 
@@ -45,7 +52,7 @@ Checkout the repo
 git clone klueless-io/funcky
 ```
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. 
+After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests.
 
 You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 

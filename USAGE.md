@@ -2,7 +2,7 @@
 
 > Funcky provides a set of functions (wrapped in the command pattern) that perform simple actions
 
-As a Developer, I want easy to use categorized functions, so I can easily run common functional actions
+As a Developer, I want easy to use simple categorized functions, so I can easily add commonplace functionality to my application
 
 ## Usage
 
