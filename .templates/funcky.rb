@@ -1,8 +1,10 @@
 # frozen_string_literal: true
 
 require 'funcky/version'
-require 'funcky/base_command'
-require 'funcky/inflection/ordinal'
+{{#each functions}}
+require '{{.}}'
+{{/each}}
+
 
 module Funcky
   # raise Funcky::Error, 'Sample message'

@@ -1,3 +1,5 @@
-puts '_'
+ActiveSupport::Inflector.inflections do |inflect|
+end
 
-#require 'config/_initialize'
+require_relative './app_settings'
+require_relative './configure_builder'

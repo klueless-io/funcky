@@ -15,7 +15,19 @@ Research these links and build a list of categories and functions
 - we will start generating code (of that DSL)
 - we will check in to github at least 1 completed function
 
-
+- Rename BaseCommand to BaseFunction
+- Get 4 new functions working
+  - Make sure you add each function's require to `lib/funcky.rb`
+  - Uncomment the lib/**/file.rb
+  - Uncomment the spec/**/file_spec.rb
+    - Remove the section for handlebars
+  - Run the spec and observe the errors
+    - To shrink the errors, take the 1st `it` block and change to `fit`
+  - Get all tests working
+  - Check the examples (in comments)
+  - Make sure you do a commit and push after each completed function
+  - Check Git HUB Actions that all is good
+- Continue researching the categories and functions
 
 ## Git Commands for Sean
 

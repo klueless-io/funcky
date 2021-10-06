@@ -6,6 +6,8 @@ AllCops:
   NewCops: enable
   Exclude:
     - "_/**/*"
+    - ".builders/**/*"
+    - ".templates/**/*"
     - "spec/samples/**/*"
 
 Metrics/BlockLength:
