@@ -20,6 +20,9 @@ Research these links and build a list of categories and functions
 ## Git Commands for Sean
 
 ```bash
+# git status (gs)
+git status
+
 # pull latest code changes
 git pull
 
