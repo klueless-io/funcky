@@ -9,7 +9,6 @@
 #    https://gist.github.com/octocat/9257657
 
 # Ignore Klue Setup.sh
-/bin/runonce/
 funcky.yml
 
 /_/
