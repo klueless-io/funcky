@@ -1,4 +1,4 @@
-# # frozen_string_literal: true
+# frozen_string_literal: true
 
 # # reference: https://github.com/rails/rails/blob/master/activesupport/lib/active_support/inflector/methods.rb
 # # require 'active_support/inflector/inflections'
