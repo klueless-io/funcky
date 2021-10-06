@@ -9,6 +9,14 @@ Research these links and build a list of categories and functions
 - https://www.ruby-toolbox.com/projects/sanitize
 -
 
+- create an new builder generator for Funcky
+- we will compare the similarities (and deficiencies) with the generator we used to create the GEM itself.
+- if you have done some research will turn it into a DSL
+- we will start generating code (of that DSL)
+- we will check in to github at least 1 completed function
+
+
+
 ## Git Commands for Sean
 
 ```bash
