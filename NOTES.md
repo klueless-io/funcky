@@ -9,12 +9,11 @@ Research these links and build a list of categories and functions
 - https://www.ruby-toolbox.com/projects/sanitize
 -
 
-- create an new builder generator for Funcky
-- we will compare the similarities (and deficiencies) with the generator we used to create the GEM itself.
-- if you have done some research will turn it into a DSL
-- we will start generating code (of that DSL)
-- we will check in to github at least 1 completed function
+- FUTURE: we will start generating code (of that DSL)
 
+- NEXT:
+
+- https://github.com/klueless-io/funcky
 - Rename BaseCommand to BaseFunction
 - Get 4 new functions working
   - Make sure you add each function's require to `lib/funcky.rb`
