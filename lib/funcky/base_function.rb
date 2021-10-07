@@ -3,7 +3,7 @@
 module Funcky
   # base helper provides an interface to wrap your parsing logic
   # in a Handlebars aware context
-  class BaseCommand
+  class BaseFunction
     def parse(value)
       value
     end

@@ -7,7 +7,6 @@ Research these links and build a list of categories and functions
 - https://www.ruby-toolbox.com/categories
 - https://github.com/magynhard/lucky_case
 - https://www.ruby-toolbox.com/projects/sanitize
--
 
 - FUTURE: we will start generating code (of that DSL)
 

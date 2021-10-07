@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require 'funcky/version'
-require 'funcky/base_command'
+require 'funcky/base_function'
 require 'funcky/inflection/ordinal'
 
 module Funcky
