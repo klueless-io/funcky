@@ -2,6 +2,7 @@
 
 RSpec.describe Funcky::Comparison::Eq do
   # Eq: Block helper that renders a block if `a` is **equal to** `b`. If an inverse block is specified it will be rendered when falsy.
+  
   describe '#parse' do
     subject { described_class.new.parse(lhs, rhs) }
 

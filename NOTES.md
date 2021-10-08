@@ -24,10 +24,81 @@ Research these links and build a list of categories and functions
   - Run the spec and observe the errors
     - To shrink the errors, take the 1st `it` block and change to `fit`
   - Get all tests working
-  - Check the examples (in comments)
   - Make sure you do a commit and push after each completed function
+  
+- Constantize becomes constant
+- back_slash becomes backslash
+- upper_camel
+- lower_camel
+
+format_as('the quick brown fox', :pluralize,:upper,:dash)
+'THE-QUICK-BROWN-FOXES'
+
+Third party Javascript Library
+
+| hbars        | funcky        | lucky | 
+|-|-|-|
+| back_slash   | back_slash    |   |
+| camel        | camel         |   |
+| constantize  | constantize   |   |
+| dasherize    | dasherize     |   |
+| dotirize     | dotirize      |   |
+| double_colon | double_colon  |   |
+| downcase     | downcase      |   |
+| humanize     | humanize      |   |
+| lamel        | lamel         |   |
+| slash        | slash         |   |
+| snake        | snake         |   |
+| titleize     | titleize      |   |
+| upcase       | upcase        |   |
+|              |               |   |
+|              |               |   |
+|              |               |   |
+|              |               |   |
+|              |               |   |
+|              |               |   |
+|              |               |   |
+|              |               |   |
+
+
+### Lucky Case
+
+camel_case
+capital
+capital_word_case
+capitalize
+capitalized
+constantize
+convert_case
+dash_case
+decapitalize
+decapitalized
+letter_case
+letter_cases
+lower_case
+lucky_case
+lucky_cases
+mixed_case
+not_capital
+pascal_case
+sentence_case
+set_self_value
+snake_case
+swap_case
+train_case
+upper_case
+upper_dash_case
+upper_snake_case
+upper_word_case
+valid_case_string
+word_case
+
+
+  
   - Check Git HUB Actions that all is good
-- Continue researching the categories and functions
+
+  - Check the examples (in comments)
+  Continue researching the categories and functions
 
 
 ```bash
