@@ -8,6 +8,8 @@ Research these links and build a list of categories and functions
 - https://github.com/magynhard/lucky_case
 - https://www.ruby-toolbox.com/projects/sanitize
 
+- https://dry-rb.org/gems/dry-inflector/0.1/
+
 - FUTURE: we will start generating code (of that DSL)
 
 - NEXT:

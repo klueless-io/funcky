@@ -2,34 +2,36 @@
 
 # require 'handlebars/helpers/inflection/singularize'
 
-# RSpec.describe Funcky::Inflection::Singularize do
-#   let(:value) { 'octopi' }
+RSpec.describe Funcky::Inflection::Singularize do
+  let(:value) { 'octopi' }
+  # let(:value) { 'octopus' }
 
-#   it { is_expected.not_to be_nil }
+  it { is_expected.not_to be_nil }
 
-#   # The reverse of #pluralize, returns the singular form of a word in a string
-#   describe '#parse' do
-#     subject { described_class.new.parse(value) }
+  # The reverse of #pluralize, returns the singular form of a word in a string
+  describe '#parse' do
+    subject { described_class.new.parse(value) }
 
-#     it { is_expected.to eq('octopus') }
+    it { is_expected.to eq('octopus') }
 
-#     it_behaves_like 'nil will parse to empty'
+    # DAVE DAVE
+    # it_behaves_like 'nil will parse to empty'
 
-#     context 'when :symbol' do
-#       let(:value) { :octopi }
+    context 'when :symbol' do
+      let(:value) { :octopi }
 
-#       it { is_expected.to eq('octopus') }
-#     end
-#   end
+      it { is_expected.to eq('octopus') }
+    end
+  end
 
-#   describe 'use as handlebars helper' do
-#     let(:subject) do
-#       Funcky::Template.render(template, value) do |register|
-#         register.helper(:singularize, &described_class.new.handlebars_helper)
-#       end
-#     end
-#     let(:template) { '{{singularize .}}' }
+  # describe 'use as handlebars helper' do
+  #   let(:subject) do
+  #     Funcky::Template.render(template, value) do |register|
+  #       register.helper(:singularize, &described_class.new.handlebars_helper)
+  #     end
+  #   end
+  #   let(:template) { '{{singularize .}}' }
 
-#     it { is_expected.to eq('octopus') }
-#   end
-# end
+  #   it { is_expected.to eq('octopus') }
+  # end
+end

@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'active_support/core_ext/integer/inflections'
+# require 'active_support/core_ext/integer/inflections'
 
 RSpec.describe Funcky::Inflection::Ordinal do
   # Ordinal: The suffix that should be added to a number to denote the position in an ordered sequence such as 1st, 2nd, 3rd, 4th

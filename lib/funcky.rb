@@ -3,6 +3,10 @@
 require 'funcky/version'
 require 'funcky/base_function'
 require 'funcky/inflection/ordinal'
+require 'funcky/inflection/ordinalize'
+require 'funcky/inflection/pluralize_by_number'
+require 'funcky/inflection/pluralize'
+require 'funcky/inflection/singularize'
 
 module Funcky
   # raise Funcky::Error, 'Sample message'
