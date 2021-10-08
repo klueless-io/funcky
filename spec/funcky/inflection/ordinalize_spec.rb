@@ -43,24 +43,4 @@ RSpec.describe Funcky::Inflection::Ordinalize do
       end
     end
   end
-
-  # describe 'use as handlebars helper' do
-  #   let(:subject) do
-  #     Funcky::Template.render(template, data) do |register|
-  #       register.helper(:ordinalize, &described_class.new.handlebars_helper)
-  #     end
-  #   end
-
-  #   let(:template) { '{{ordinalize value}}' }
-  #   let(:data) { { value: value } }
-  #   let(:value) { nil }
-
-  #   context 'when nil' do
-  #     it { is_expected.to eq('') }
-  #   end
-  #   context 'when 1' do
-  #     let(:value) { '1' }
-  #     it { is_expected.to eq('1st') }
-  #   end
-  # end
 end

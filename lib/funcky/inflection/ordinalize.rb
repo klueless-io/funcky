@@ -45,12 +45,6 @@ module Funcky
 
         value.ordinalize
       end
-
-      # def handlebars_helper
-      #   proc do |_context, value|
-      #     wrapper(parse(value))
-      #   end
-      # end
     end
   end
 end

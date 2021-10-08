@@ -1,8 +1,6 @@
 # frozen_string_literal: true
 
 # reference: https://github.com/rails/rails/blob/master/activesupport/lib/active_support/inflector/methods.rb
-# require 'active_support/core_ext/string'
-# require 'handlebars/helpers/base_helper'
 
 module Funcky
   # Inflection handling routines, eg. pluralize, singular, ordinalize

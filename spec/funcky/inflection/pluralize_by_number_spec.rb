@@ -42,46 +42,4 @@ RSpec.describe Funcky::Inflection::PluralizeByNumber do
       end
     end
   end
-
-  # describe 'use as handlebars helper' do
-  #   let(:subject) do
-  #     Funcky::Template.render(template, data) do |register|
-  #       register.helper(:pluralize_by_number, &described_class.new.handlebars_helper)
-  #     end
-  #   end
-
-  #   let(:template) { '{{pluralize_by_number value count format}}' }
-  #   let(:data) { { value: value, count: count, format: format } }
-  #   let(:value) { nil }
-  #   let(:count) { nil }
-  #   let(:format) { nil }
-
-  #   context 'when value' do
-  #     it { is_expected.to eq('') }
-  #   end
-
-  #   context 'when value is person' do
-  #     let(:value) { 'person' }
-  #     context 'when count is 1' do
-  #       let(:count) { 1 }
-  #       context 'when default format' do
-  #         it { is_expected.to eq('person') }
-  #       end
-  #       context 'when number_word format' do
-  #         let(:format) { 'number_word' }
-  #         it { is_expected.to eq('1 person') }
-  #       end
-  #     end
-  #     context 'when count is 2' do
-  #       let(:count) { 2 }
-  #       context 'when default format' do
-  #         it { is_expected.to eq('people') }
-  #       end
-  #       context 'when number_word format' do
-  #         let(:format) { 'number_word' }
-  #         it { is_expected.to eq('2 people') }
-  #       end
-  #     end
-  #   end
-  # end
 end

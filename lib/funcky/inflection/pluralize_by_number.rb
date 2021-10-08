@@ -2,7 +2,6 @@
 
 # reference: https://github.com/rails/rails/blob/master/activesupport/lib/active_support/inflector/methods.rb
 # require 'active_support/core_ext/string'
-# require 'handlebars/helpers/base_helper'
 
 module Funcky
   # Inflection handling routines, eg. pluralize, singular, ordinalize
@@ -44,14 +43,6 @@ module Funcky
           value.pluralize(count)
         end
       end
-
-      # def handlebars_helper
-      #   proc do |_context, value, count, format|
-      #     # Handle optional: format
-      #     format = nil if value.is_a?(V8::Object)
-      #     wrapper(parse(value, count, format))
-      #   end
-      # end
     end
   end
 end

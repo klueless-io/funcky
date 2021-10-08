@@ -15,7 +15,7 @@ RSpec.describe Funcky::Inflection::Singularize do
     it { is_expected.to eq('octopus') }
 
     # DAVE DAVE
-    # it_behaves_like 'nil will parse to empty'
+    # it_behaves_like :nil_will_parse_to_empty
 
     context 'when :symbol' do
       let(:value) { :octopi }
