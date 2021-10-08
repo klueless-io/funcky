@@ -29,6 +29,16 @@ Research these links and build a list of categories and functions
   - Check Git HUB Actions that all is good
 - Continue researching the categories and functions
 
+
+```bash
+mkdir x
+cd x
+git clone git@github.com:rgrove/sanitize.git     
+git clone git@github.com:magynhard/lucky_case.git
+git clone git@github.com:dry-rb/dry-inflector.git
+```
+
+
 ## Git Commands for Sean
 
 ```bash
