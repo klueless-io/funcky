@@ -1,6 +1,21 @@
 # frozen_string_literal: true
 
 require 'funcky/version'
+require 'funcky/base_function'
+require 'funcky/inflection/ordinal'
+require 'funcky/inflection/ordinalize'
+require 'funcky/inflection/pluralize_by_number'
+require 'funcky/inflection/pluralize'
+require 'funcky/inflection/singularize'
+require 'funcky/comparison/and'
+require 'funcky/comparison/default'
+require 'funcky/comparison/eq'
+require 'funcky/comparison/gt'
+require 'funcky/comparison/gte'
+require 'funcky/comparison/lt'
+require 'funcky/comparison/lte'
+require 'funcky/comparison/ne'
+require 'funcky/comparison/or'
 
 module Funcky
   # raise Funcky::Error, 'Sample message'
