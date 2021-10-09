@@ -15,12 +15,12 @@
 # 
 #     it_behaves_like 'nil will parse to empty'
 # 
-#     it_behaves_like 'valid value will parse successfully',
+#     it_behaves_like :valid_value_will_parse_successfully,
 #                     'trailing number supplied',
 #                     'twenty five66',
 #                     'twentyFive66'
 # 
-#     it_behaves_like 'valid value will parse successfully',
+#     it_behaves_like :valid_value_will_parse_successfully,
 #                     'trailing space and number supplied',
 #                     'twenty five 66',
 #                     'twentyFive66'

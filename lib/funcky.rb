@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'funcky/version'
+require 'funcky/configuration'
 require 'funcky/base_function'
 require 'funcky/string_tokenizer'
 require 'funcky/inflection/ordinal'
@@ -17,6 +18,7 @@ require 'funcky/comparison/lt'
 require 'funcky/comparison/lte'
 require 'funcky/comparison/ne'
 require 'funcky/comparison/or'
+require 'funcky/case/back_slash.rb'
 
 module Funcky
   # raise Funcky::Error, 'Sample message'
