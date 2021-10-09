@@ -2,6 +2,7 @@
 
 require 'funcky/version'
 require 'funcky/base_function'
+require 'funcky/string_tokenizer'
 require 'funcky/inflection/ordinal'
 require 'funcky/inflection/ordinalize'
 require 'funcky/inflection/pluralize_by_number'

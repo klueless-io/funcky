@@ -38,3 +38,10 @@ def use_cases
 end
 # @use_cases = nil
 
+  # def self.camel_case(string, tokenizer = PreservePrefixedUnderscoreTokenizer.new)
+  #   # DAVE INPUT 9 Oct 21 from lucky_case play
+  #   # dependency injection: to use enhanced tokenizer
+  #   a = split_case_string string
+  #   converted = ([a[0]] + a[1..-1].map { |e| capital e }).join('')
+  #   tokenizer.parse(converted)
+  # end
