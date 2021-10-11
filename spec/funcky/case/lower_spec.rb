@@ -13,5 +13,4 @@ RSpec.describe Funcky::Case::Lower do
 
     it_behaves_like :nil_will_parse_to_empty
   end
-
 end

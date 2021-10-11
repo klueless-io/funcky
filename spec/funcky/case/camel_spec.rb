@@ -33,5 +33,4 @@ RSpec.describe Funcky::Case::Camel do
                     'p02ef4',
                     'P02ef4'
   end
-
 end

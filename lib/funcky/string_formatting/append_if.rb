@@ -1,11 +1,11 @@
 # frozen_string_literal: true
-# 
+#
 # # reference: https://github.com/rails/rails/blob/master/activesupport/lib/active_support/inflector/methods.rb
 # require 'active_support/core_ext/string'
-# 
+#
 # require 'handlebars/helpers/base_safe_string_helper'
 # require 'handlebars/helpers/string_formatting/format_as'
-# 
+#
 # module Handlebars
 #   module Helpers
 #     # String manipulation methods for case formatting
@@ -28,7 +28,7 @@
 #           format_as = Handlebars::Helpers::StringFormatting::FormatAs.new
 #           value.present? ? "#{format_as.parse(value, formats)}#{suffix}" : ''
 #         end
-# 
+#
 #         def handlebars_helper
 #           proc do |_context, value, suffix, formats|
 #             # Handle optional: formats

@@ -23,5 +23,4 @@ RSpec.describe Funcky::Case::Slash do
                     'twenty Five 66',
                     'twenty/Five66'
   end
-
 end

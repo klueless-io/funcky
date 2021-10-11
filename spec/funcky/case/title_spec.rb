@@ -1,7 +1,9 @@
 # frozen_string_literal: true
 
 RSpec.describe Funcky::Case::Title do
-  let(:value) { 'the quick brown fox' }
+  let(:value) { 'the quick brown fox jumped over the lazy dog' }
+
+  it { is_expected.not_to be_nil }
 
   it { is_expected.not_to be_nil }
 
@@ -9,7 +11,11 @@ RSpec.describe Funcky::Case::Title do
   describe '#parse' do
     subject { described_class.new.parse(value) }
 
-    it { is_expected.to eq('The Quick Brown Fox') }
+    it { is_expected.to eq('The Quick Brown Fox Jumped Over The Lazy Dog') }
+    # THIS IS HOW it really should be
+    # "The Quick Brown Fox Jumped over the Lazy Dog"
+    # LOOK AT: https://github.dev/granth/titleize
+    # LOOK AT: https://www.thegreatcodeadventure.com/lets-make-a-gem/
 
     it_behaves_like :nil_will_parse_to_empty
 
@@ -23,5 +29,4 @@ RSpec.describe Funcky::Case::Title do
                     'twenty five 66',
                     'Twenty Five 66'
   end
-
 end

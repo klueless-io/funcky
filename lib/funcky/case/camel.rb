@@ -9,7 +9,7 @@ module Funcky
   # String manipulation methods for case formatting
   module Case
     # camel case the characters in the given 'string'.
-#    class Camel < Handlebars::Helpers::BaseHelper
+    #    class Camel < Handlebars::Helpers::BaseHelper
     class Camel < BaseFunction
       # Parse will camel case the characters in the given 'string'.
       #

@@ -23,5 +23,4 @@ RSpec.describe Funcky::Case::DoubleColon do
                     'Twenty Five 66',
                     'Twenty::Five66'
   end
-
 end

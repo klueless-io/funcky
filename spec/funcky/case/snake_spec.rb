@@ -28,5 +28,4 @@ RSpec.describe Funcky::Case::Snake do
                     'the-quick-brown-fox66',
                     'the_quick_brown_fox66'
   end
-
 end

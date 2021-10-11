@@ -5,7 +5,6 @@
 module Funcky
   # String manipulation methods for case formatting
   module Case
-    
     class Lower < BaseFunction
       # Lowercase all of the characters in the given string.
       # Parse will Downcase/Lowercase all of the characters in the given string.
