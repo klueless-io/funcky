@@ -3,23 +3,22 @@
 # reference: https://github.com/rails/rails/blob/master/activesupport/lib/active_support/inflector/methods.rb
 
 module Funcky
-  # {{command.category_description}}
-  module {{camel command.category}}
-    # {{camel command.name}}: {{command.function_description}}
-    class {{camel command.name}} < Funcky::BaseFunction
-      {{#each command.usecases}}
+  # Tokenize and apply case and/or separator
+  module ATransform
+    # Camel: convert to camel notation
+    class Camel < Funcky::BaseFunction
       # @example
       #
-      #   puts {{camel ./function}}.new.parse({{{nice_inputs}}})
+      #   puts Camel.new.parse('the Quick brown Fox 99')
       #
-      #   {{expected_output}}
+      #   TheQuickBrownFox99
       #
-      {{/each}}
       #
       # @param [String|Int] value - numeric value
       # @return [String] ordinal suffix that would be required for a number
       def parse(value)
-{{{command.ruby}}}
+        tokenizer.parse(value).underscore.camelize
+
       end
     end
   end

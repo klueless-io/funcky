@@ -18,4 +18,4 @@
 
 | Category | Name | Alias | Description |
 |-|-|-|-|
-| A Inflection | `ordinal` |  |  |
+| A Inflection | `ordinal` |  | The suffix that should be added to a number to denote the position in an ordered sequence such as 1st, 2nd, 3rd, 4th |

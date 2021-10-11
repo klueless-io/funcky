@@ -33,6 +33,7 @@ require 'funcky/case/slash'
 require 'funcky/case/snake'
 require 'funcky/case/title'
 require 'funcky/case/upper'
+require 'all_functions'
 
 module Funcky
   # raise Funcky::Error, 'Sample message'

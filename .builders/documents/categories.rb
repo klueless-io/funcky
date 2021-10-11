@@ -10,7 +10,7 @@ def categories
       row :inflection         , "Inflection handling routines, eg. pluralize, singular, ordinalize"
       row :string             , "String handling helpers"
 
-      row :a_case             , "Tokenize and apply case and/or separator"
+      row :a_transform        , "Tokenize and apply case and/or separator"
       row :a_comparison       , "Comparison helpers, eg. or, and, equal, not equal, less than, greater than etc."
       row :a_inflection       , "Inflection handling routines, eg. pluralize, singular, ordinalize"
     end
