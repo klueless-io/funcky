@@ -5,6 +5,7 @@ AllCops:
   ExtraDetails: true
   NewCops: enable
   Exclude:
+    - "x/**/*"
     - "_/**/*"
     - ".builders/**/*"
     - ".templates/**/*"
