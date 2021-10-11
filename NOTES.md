@@ -14,25 +14,12 @@ Research these links and build a list of categories and functions
 
 - NEXT:
 
-- https://github.com/klueless-io/funcky
-- Rename BaseCommand to BaseFunction
-- Get 4 new functions working
-  - Make sure you add each function's require to `lib/funcky.rb`
-  - Uncomment the lib/**/file.rb
-  - Uncomment the spec/**/file_spec.rb
-    - Remove the section for handlebars
-  - Run the spec and observe the errors
-    - To shrink the errors, take the 1st `it` block and change to `fit`
-  - Get all tests working
-  - Make sure you do a commit and push after each completed function
-  
-- Constantize becomes constant
-- back_slash becomes backslash
-- upper_camel
-- lower_camel
-
 format_as('the quick brown fox', :pluralize,:upper,:dash)
 'THE-QUICK-BROWN-FOXES'
+
+SEAN: 
+Look at the SPECS across the 3 categories
+
 
 Third party Javascript Library
 
