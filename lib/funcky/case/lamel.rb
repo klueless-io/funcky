@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # reference: https://github.com/rails/rails/blob/master/activesupport/lib/active_support/inflector/methods.rb
-#require 'active_support/core_ext/string'
+# require 'active_support/core_ext/string'
 
 module Funcky
   # String manipulation methods for case formatting

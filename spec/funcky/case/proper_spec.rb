@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 RSpec.describe Funcky::Case::Proper do
-  let(:value) { 'the quick brown fox' }
+  let(:value) { 'the quick brown fox jumped over the lazy dog' }
 
   it { is_expected.not_to be_nil }
 
@@ -9,8 +9,7 @@ RSpec.describe Funcky::Case::Proper do
   describe '#parse' do
     subject { described_class.new.parse(value) }
 
-    ## SEAN changed only first word
-    it { is_expected.to eq('The quick brown fox') }
+    it { is_expected.to eq('The Quick Brown Fox Jumped Over The Lazy Dog') }
 
     it_behaves_like :nil_will_parse_to_empty
 
@@ -24,5 +23,4 @@ RSpec.describe Funcky::Case::Proper do
                     'twenty five 66',
                     'Twenty Five 66'
   end
-
 end

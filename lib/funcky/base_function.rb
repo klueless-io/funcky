@@ -35,5 +35,5 @@ module Funcky
     #     end
     #   end
     # end
-    end
+  end
 end

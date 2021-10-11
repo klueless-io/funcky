@@ -6,7 +6,6 @@ require 'active_support/core_ext/string'
 module Funcky
   # String manipulation methods for case formatting
   module Case
-
     class Title < BaseFunction
       # Title case capitalizes the first letter of EVERY WORD in a string
       # Parse will title case the characters in the given 'string', aka heading case
@@ -30,7 +29,7 @@ module Funcky
                         preserve_case: true,
                         compress_prefix_numerals: false,
                         compress_suffix_numerals: false)
-                  .title
+                 .titleize
       end
     end
   end

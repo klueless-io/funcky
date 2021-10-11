@@ -5,8 +5,8 @@
 
 module Funcky
   module Case
-  # String manipulation methods for case formatting
-  class Human < BaseFunction
+    # String manipulation methods for case formatting
+    class Human < BaseFunction
       # human class will convert text to human case, i.e. make only the first word Proper case for a proper looking sentence
       # Parse function will convert text to human case
       #
@@ -28,7 +28,7 @@ module Funcky
                         preserve_case: true,
                         compress_prefix_numerals: false,
                         compress_suffix_numerals: false)
-                  .human
+                 .humanize
       end
     end
   end

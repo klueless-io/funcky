@@ -23,5 +23,4 @@ RSpec.describe Funcky::Case::Lamel do
                     'twenty five 66',
                     'twentyFive66'
   end
-
 end

@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-#require 'handlebars/helpers/string_formatting/back_slash'
+# require 'handlebars/helpers/string_formatting/back_slash'
 
 RSpec.describe Funcky::Case::BackSlash do
   let(:value) { 'the quick brown fox' }

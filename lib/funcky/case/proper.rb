@@ -5,10 +5,9 @@
 module Funcky
   # String manipulation methods for case formatting
   module Case
-
     class Proper < BaseFunction
       # Proper case capitalizes the first letter of THE FIRST WORD in a string
-            #
+      #
       # @side effects
       #
       #   Text casing set to upper case for first letters.
@@ -28,7 +27,7 @@ module Funcky
                         preserve_case: true,
                         compress_prefix_numerals: false,
                         compress_suffix_numerals: false)
-                  .title
+                 .titleize
       end
     end
   end

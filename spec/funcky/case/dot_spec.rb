@@ -23,5 +23,4 @@ RSpec.describe Funcky::Case::Dot do
                     'twenty five 66',
                     'twenty.five66'
   end
-
 end

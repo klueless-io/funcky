@@ -1,10 +1,10 @@
 # frozen_string_literal: true
-# 
+#
 # # reference: https://github.com/rails/rails/blob/master/activesupport/lib/active_support/inflector/methods.rb
 # require 'active_support/core_ext/string'
-# 
+#
 # require 'handlebars/helpers/base_safe_string_helper'
-# 
+#
 # module Handlebars
 #   module Helpers
 #     # String manipulation methods for case formatting
@@ -42,7 +42,7 @@
 #           char = Handlebars::Helpers.configuration.padl_char if char.nil?
 #           value.to_s.rjust(count, char)
 #         end
-# 
+#
 #         def handlebars_helper
 #           proc do |_context, value, count, char|
 #             # Handle optional: value, count and char

@@ -23,5 +23,4 @@ RSpec.describe Funcky::Case::Human do
                     'twenty five 66',
                     'Twenty five 66'
   end
-
 end

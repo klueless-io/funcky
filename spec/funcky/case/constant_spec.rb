@@ -23,5 +23,4 @@ RSpec.describe Funcky::Case::Constant do
                     'twenty five 66',
                     'TWENTY_FIVE66'
   end
-
 end
