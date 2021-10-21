@@ -3,7 +3,52 @@ def functions
   
   result = KDoc.model :document do
     table :rows do
-      fields :category, :name, :alias, :description, :ruby
+      fields :category, :name, :alias, :description, :ruby # , f(name: :params, default: [:value])
+
+      # context 'when array of string' do
+      #   let(:value) { %w[the quick fox] }
+
+      #   it { is_expected.to eq('the,quick,fox') }
+      # end
+
+      # context 'when array of numbers' do
+      #   let(:value) { [1, 2, 3] }
+
+      #   it { is_expected.to eq('1,2,3') }
+      # end
+
+      # context 'when array of symbol' do
+      #   let(:value) { %i[the quick fox] }
+
+      #   it { is_expected.to eq('the,quick,fox') }
+      # end
+
+      row :a_array                , :join            , []    , "join an array of values with separator as a string", <<-'RUBY'
+        return '' if value.nil? || !value.is_a?(Array)
+        values = value.reject(&:blank?)
+        return '' if value.length.zero?
+
+        separator = ','
+        value.join(separator)
+      RUBY
+
+      row :a_array                , :join_pre        , []    , "join an array of values with separator as a string and using the separator at the beginning of string", <<-'RUBY'
+        return '' if value.nil? || !value.is_a?(Array)
+        values = value.reject(&:blank?)
+        return '' if value.length.zero?
+
+        separator = ','
+        "#{separator}#{value.join(separator)}"
+      RUBY
+
+      row :a_array                , :join_post       , []    , "join an array of values with separator as a string and using the separator at the end of string", <<-'RUBY'
+        return '' if value.nil? || !value.is_a?(Array)
+        values = value.reject(&:blank?)
+        return '' if value.length.zero?
+
+        separator = ','
+        "#{value.join(separator)}#{separator}"
+      RUBY
 
       row :a_transform            , :backslash            , [:back_slash]                    , "convert to back slash notation", <<-'RUBY'
         tokenizer.parse(value, preserve_case: true, separator: '\\')

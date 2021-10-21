@@ -1,6 +1,9 @@
 # frozen_string_literal: true
 
 puts 'all functions'
+require 'funcky/a_array/join'
+require 'funcky/a_array/join_post'
+require 'funcky/a_array/join_pre'
 require 'funcky/a_comparison/and'
 require 'funcky/a_comparison/default'
 require 'funcky/a_comparison/eq'

@@ -13,6 +13,12 @@ module Funcky
       #
       #   The quick brown fox 99
       #
+      # @example
+      #
+      #   puts Sentence.new.parse('The quick  brown fox, jumped  over the lazy dog')
+      #
+      #   The quick brown fox jumped over the lazy dog
+      #
       #
       # @param [String|Int] value - numeric value
       # @return [String] ordinal suffix that would be required for a number

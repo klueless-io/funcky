@@ -9,6 +9,18 @@ module Funcky
     class Eq < Funcky::BaseFunction
       # @example
       #
+      #   puts Eq.new.parse(111, '111')
+      #
+      #   false
+      #
+      # @example
+      #
+      #   puts Eq.new.parse(111, 111.0)
+      #
+      #   false
+      #
+      # @example
+      #
       #   puts Eq.new.parse('aaa', 'aaa')
       #
       #   true
@@ -16,6 +28,30 @@ module Funcky
       # @example
       #
       #   puts Eq.new.parse('aaa', 'bbb')
+      #
+      #   false
+      #
+      # @example
+      #
+      #   puts Eq.new.parse(aaa, aaa)
+      #
+      #   true
+      #
+      # @example
+      #
+      #   puts Eq.new.parse('aaa', aaa)
+      #
+      #   false
+      #
+      # @example
+      #
+      #   puts Eq.new.parse('aaa', 'bbb')
+      #
+      #   false
+      #
+      # @example
+      #
+      #   puts Eq.new.parse('aaa', 'AAA')
       #
       #   false
       #
