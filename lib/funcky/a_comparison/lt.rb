@@ -22,9 +22,8 @@ module Funcky
       #
       # @param [String|Int] value - numeric value
       # @return [String] ordinal suffix that would be required for a number
-      def parse(value)
+      def parse(lhs, rhs)
         lhs < rhs
-
       end
     end
   end

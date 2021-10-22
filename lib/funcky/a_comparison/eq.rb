@@ -56,15 +56,25 @@ module Funcky
       #   false
       #
       #
-      # @param [String|Int] value - numeric value
-      # @return [String] ordinal suffix that would be required for a number
-      def parse(value)
+      # # @param [String|Int] value - numeric value
+      # # @return [String] ordinal suffix that would be required for a number
+      # def parse(value)
+      #   lhs = lhs.to_s if lhs.is_a?(Symbol)
+      #   rhs = rhs.to_s if rhs.is_a?(Symbol)
+
+      #   lhs == rhs
+      # end
+
+      # @param [String] lhs - left hand side value
+      # @param [String] rhs - right hand side value
+      # @return [String] truthy value if left hand side equals right hand side
+      def parse(lhs, rhs)
         lhs = lhs.to_s if lhs.is_a?(Symbol)
         rhs = rhs.to_s if rhs.is_a?(Symbol)
 
         lhs == rhs
-
       end
+
     end
   end
 end

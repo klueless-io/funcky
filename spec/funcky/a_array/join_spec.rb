@@ -18,5 +18,25 @@ RSpec.describe Funcky::AArray::Join do
     context 'safely handle nil' do
       it { is_expected.to eq('') }
     end
+
+    context 'when array of string' do
+      let(:value) { %w[the quick fox] }
+
+      it { is_expected.to eq('the,quick,fox') }
+      # it { expect(Funcky::AArray::Join.new.parse(['the', 'quick', 'fox'])).to eq('the,quick,fox') }      
+    end
+
+    context 'when array of numbers' do
+      let(:value) { [1, 2, 3] }
+
+      it { is_expected.to eq('1,2,3') }
+    end
+
+    context 'when array of symbol' do
+      let(:value) { %i[the quick fox] }
+
+      it { is_expected.to eq('the,quick,fox') }
+    end
+
   end
 end

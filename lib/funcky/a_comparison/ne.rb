@@ -22,7 +22,7 @@ module Funcky
       #
       # @param [String|Int] value - numeric value
       # @return [String] ordinal suffix that would be required for a number
-      def parse(value)
+      def parse(lhs, rhs)
         lhs = lhs.to_s if lhs.is_a?(Symbol)
         rhs = rhs.to_s if rhs.is_a?(Symbol)
 
