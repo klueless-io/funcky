@@ -33,7 +33,7 @@ module Funcky
       #
       # @example
       #
-      #   puts Or.new.parse('aaa', 'bbb')
+      #   puts Or.new.parse('aaa', 'ccc')
       #
       #   true
       #
